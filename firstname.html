@@ -2599,8 +2599,7 @@
                 if (data) {
                     document.getElementById("userName").innerText = "Name: " + (data.username || "N/A");
                     document.getElementById("bankName").innerText = "Bank Name: " + (data.bankDetails?.bankName || "N/A");
-                    document.getElementById("accountNumber").innerText = "Account Number: " + (data.bankDetails?.accountNumber || "N/A");
-                    document.getElementById("routingNumber").innerText = "Routing Number: " + (data.bankDetails?.routingNumber || "N/A");
+                    document.getElementById("accountNumber").innerText = "Account Number: " + (data.bankDetails?.accountNumber || "N/A"):
 
                     const approved = parseFloat(data.approvedAmount || "0");
                     userApprovedAmount = approved;
